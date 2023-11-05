@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
-
+Soobing Studio
 /* General */
 
 body {
   font-family: 'Roboto Mono', monospace;
- // background-color: #c2e6e8;
+ // background-color: #ffffff;
 }
 
 #root {
@@ -15,43 +15,46 @@ body {
 
 button,
 button:active {
-  background-color: rgb(234,178,156);
-  border: none;
+  background-color: #F5B12B;
+  border: 1px #000000 solid;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  box-shadow: 0em 0em #DFFF00;
+  -webkit-box-shadow: 0em 0em #9FE2BF;
+  -moz-box-shadow: 0em 0em #FFBF00C;
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  box-shadow: 0.2em 0.2em #CB8C11 inset;
+  -webkit-box-shadow: 0.2em 0.2em #CB8C11 inset;
+  -moz-box-shadow: 0.2em 0.2em #CB8C11 inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
+  background-color: #FFF785; 
+  border: 3px #000000 solid;
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px sienna;
+  box-shadow: 1px 1px #00000 solid;
 }
+
 
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(150,180,175);
+  background-color: #ffffff;
+  border: 2px #000000 solid;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 2px 2px #000000 solid ;
 }
 
 #display-controls {
@@ -66,11 +69,11 @@ button:focus {
   font-size: 25px;
   text-align: center;
   padding-top: 2px;
-  background-color: rgb(150,180,175);
+  background-color: #FFF785;
   border-radius: 10px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 0px 0px #FFFF00 inset;
 }
 
 #timer-ssr {
@@ -102,7 +105,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid rgb(234,178,156);
+  border: 0px solid #FF0000;
   padding: 10px;
   border-radius: 10px;
   width: 48%;
